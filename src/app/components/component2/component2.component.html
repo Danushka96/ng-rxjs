@@ -1,0 +1,27 @@
+<h1>Fruits from subject</h1>
+
+<ul>
+  <li *ngFor="let fruit of fruits">{{fruit}}</li>
+</ul>
+
+<button (click)="unsubscribeFruit()">Unsubscribe</button>
+<button (click)="subscribeFruit()">Subscribe</button>
+
+
+<h1>Vehicles from Behaviour</h1>
+
+<ul>
+  <li *ngFor="let vehicle of vehicles">{{vehicle}}</li>
+</ul>
+
+<button (click)="unsubscribeVehicle()">Unsubscribe</button>
+<button (click)="subscribeVehicle()">Subscribe</button>
+
+<h1>Cars from ReplaySubject</h1>
+
+<ul>
+  <li *ngFor="let car of cars">{{car}}</li>
+</ul>
+
+<button (click)="unsubscribeCars()">Unsubscribe</button>
+<button (click)="subscribeCars()">Subscribe</button>
